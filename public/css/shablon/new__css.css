@@ -1,0 +1,23 @@
+.newclass{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+}
+.newclass__item input, .newclass__item select{
+    border-radius: 50px;
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .newclass{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .newclass__item:last-child{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+@media screen and (max-width: 768px){
+    .newclass{
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+    }
+}

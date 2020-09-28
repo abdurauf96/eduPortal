@@ -1,0 +1,8 @@
+.admin img{
+    width: 150px;
+}
+
+.msg{
+    z-index: 99999999999 !important;
+    position: absolute!important;
+}

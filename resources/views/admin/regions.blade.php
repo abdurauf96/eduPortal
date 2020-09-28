@@ -1,0 +1,32 @@
+@extends('admin.layout')
+
+@section('content')
+
+ <div class="col-md-6">
+ 	
+	<div class="box box-info">
+        <div class="box-header with-border">
+          <h3 class="box-title">Viloyatlar</h3>
+          <a class="btn btn-info" href="{{ route('addRegion') }}">Qo'shish</a>
+        </div>
+        <!-- /.box-header -->
+        <!-- form start -->
+       <table class="table table-bordered table-striped dataTable">
+         <tr>
+           <td>id</td>
+           <td>Viloyat nomi</td>
+           <td>Action</td>
+         </tr>
+         @foreach($regions as $region)
+         <tr>
+         	<td>{{ $region->id }}</td>
+         	<td>{{ $region->{'name_'.\App::getLocale()} }}</td>
+         	<td>
+         		<a class="btn btn-danger" href="">delete</a>
+         	</td>
+         </tr>
+         @endforeach
+       </table>
+    </div>
+ </div>
+@stop

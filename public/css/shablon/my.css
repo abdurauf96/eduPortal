@@ -1,0 +1,200 @@
+.block-search{
+    background: #302a39!important;
+    padding: 15px;
+    border-radius: 40px;
+    display: block;
+}
+.search_region{
+    background: #302a39!important;
+    border: 2px solid white 0.2;
+    border-radius: 30px;
+    color: #fff;
+}
+.search_courses{
+    margin-top: 250px;
+    border-radius: 70px;
+}
+.ext{
+    width: 20px;
+}
+
+.pagination > li > a, .pagination > li > span{
+    padding: 6px 10px!important;
+}
+
+.links a{
+	 margin-right: 10px;
+     color: rgba(255, 255, 255, 0.8);
+}
+
+#hidden_block {
+    display: none;
+}
+.dropdown-item {
+	display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529 !important;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+li{
+	list-style: none;
+}
+
+.box{
+	margin-top: 60px;
+}
+.top-menu{
+    background:#333;
+}
+.school_image img{
+	width: 350px;
+}
+
+.select{
+    background-color: #302a39!important;
+}
+.teacher{
+    color: black!important;
+    font-family: inherit!important;
+    font-weight: 400!important;
+}
+.page_about, .page_books, .page_posts, .page_view, .page_register, .user_register, .post_view, .sign-up, .vacancy{
+    margin-top: 80px;
+}
+.book_box{
+    box-shadow: 0px 10px 10px 0px #eee;
+    margin-top: 55px;
+}
+.download_book{
+    margin-top: 10px;
+}
+
+.post_img{
+    width: 100px;
+}
+
+#logo{
+    font-size: 
+}
+.icon img{
+    width: 50px;
+    margin: 10px;
+}
+.res{
+    width: 30px;
+}
+.text_about{
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.filter{
+    margin-top: 300px;
+}
+.pagination{
+    margin-top: 6px;
+}
+.msg{
+    top: 124px;
+    left: 440px;
+    position: relative;
+    z-index: 11111111111111111111111111111;
+}
+
+@media screen and (max-width: 768px){
+    .msg{
+        top: 116px;
+        left: 0px;
+        position: relative;
+        z-index: 11111111111111111111111111111;
+    }
+    .get_univer{
+        margin-top: 10px;
+    }
+    a .text{
+    font-size: 8pt!important;
+    }
+    .colorlib-search .search-wrap-2{
+        border-radius: 0px!important;
+    }
+
+    img{
+        width: 50%!important;
+    }
+    .lang{
+        float: right;
+        margin-top: 15px;
+    }
+
+    #colorlib-hero .flexslider .slider-text > .slider-text-inner h2{
+        margin-right: 125px;
+        font-size: 12pt;
+    }
+    #colorlib-hero .flexslider .slider-text > .slider-text-inner h1{
+        font-size: 14pt!important;
+         margin-right: 120px!important; 
+    }
+    .desc p a{
+         font-size: 10pt!important;
+         margin-right: 45px!important; 
+    }
+    .desc p{
+       
+        margin-right: 55px!important; 
+    }
+    #colorlib-hero .btn.btn-primary .icon{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 32px;
+        height: 32px;
+        display: table;
+        text-align: center;
+        background: white;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%; 
+   }
+   #colorlib-hero .flexslider .slider-text > .slider-text-inner span i {
+       font-size: 18px;
+   }
+   
+}
+
+@media screen and (max-width: 480px){
+    #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
+        width: 85%;
+    }
+}
+
+.login_icon{
+    color: #fff;
+    margin-left: -40px;
+}
+.user_edit{
+    color: #fff;
+}
+
+.testimony-wrap p{
+    text-align: justify!important;
+}
+
+.testimony-wrap h3{
+    text-align: right!important;
+}
+a .text{
+    font-size: 10pt;
+}
+
+.handle img{
+    width: 30px;
+}
+
